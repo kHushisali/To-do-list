@@ -52,7 +52,7 @@ def update_task():
                 tasks[index]["task"] = new_task
                 print("Task updated successfully!")
             else:
-                print("Task cannot be empty.")
+                print("Task cannot  be empty.")
         else:
             print("Invalid number!")
     except ValueError:5
